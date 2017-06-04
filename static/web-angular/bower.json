@@ -1,0 +1,17 @@
+{
+  "name": "web-angular",
+  "description": "My starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "None",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x",
+    "jquery": "2.2.x"
+  }
+}

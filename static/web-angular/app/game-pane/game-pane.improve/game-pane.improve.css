@@ -1,0 +1,39 @@
+.show-grid {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.show-grid [class^="col-"] {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ddd;
+    border-radius: 35%;
+}
+
+.node {
+    animation: appeal;
+    margin-left: 1%;
+    background-color: #5cb85c;
+}
+.Center-Container {
+    position: relative;
+}
+
+.Absolute-Center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes appeal {
+  from { opacity:0; }
+  to { opacity:1; }
+}

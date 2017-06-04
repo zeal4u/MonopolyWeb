@@ -1,0 +1,19 @@
+<div  class="container  Absolute-Center">
+    <div class="page-header">
+        <h1>Please Enter Players' Names
+        </h1>
+    </div>
+    <form class="form-horizontal"  >
+        <div class="form-group">
+            <div   class="col-md-10 ">
+                <input type="text" class="form-control" ng-init="players={names:''}" ng-model="players.names" placeholder="Use ',' to split players!"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-6 col-md-offset-2">
+                <button  class="btn btn-block btn-large btn-success"  ng-click="startPlay(players)" >Game Start!</button>
+            </div>
+        </div>
+    </form>
+</div>

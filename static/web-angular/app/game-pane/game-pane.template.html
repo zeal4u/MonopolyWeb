@@ -1,0 +1,16 @@
+<div class="container Absolute-Center">
+    <div style="height: auto">
+        <span id="greet" style="width:50%;">Next Turn, player <em style="color: green; font-size: 2em;">{{current_player.name}}</em> at Node <em style="color: blue; font-size: 2em;">{{current_player.position}}</em>
+        </span>
+        <br/>
+        <div ng-repeat="message in messages">
+            <span id="new_event" style="color: red; font-size: 2em;">
+               {{message}}<br/>
+            </span>
+        </div>
+    </div>
+    <br/><br/>
+    <div class="col-md-6 col-md-offset-2">
+        <button ng-click="nextTurn()" class="btn btn-block btn-large btn-info">Next Turn!</button>
+    </div>
+</div>>

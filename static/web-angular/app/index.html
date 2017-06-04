@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" ng-app="monopolyApp">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Who's the luckiest guy?</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="app.css"/>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="names-input/names-input.module.js"></script>
+    <script src="names-input/names-input.component.js"></script>
+    <script src="record-table/record-table.module.js"></script>
+    <script src="record-table/record-table.component.js"></script>
+    <script src="game-pane/game-pane.module.js"></script>
+    <script src="game-pane/game-pane.component.js"></script>
+    <script src="game-over/game-over.module.js"></script>
+    <script src="game-over/game-over.component.js"></script>
+
+</head>
+<body style="background-color: white">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header" >
+            <a class="navbar-brand" href="#/names-input">
+                <storng>Monopoly Game</storng>
+
+            </a>
+            <!-- should let the record be right -->
+            <p class="navbar-text navbar-right"><a ng-href="#/record">Records</a></p>
+        </div>
+    </div>
+</nav>
+
+<div ng-view></div>
+
+</body>
+
+<footer class="footer navbar-fixed-bottom" style="background-color: #dadada;height: 8%;">
+    <div class="container Absolute-Center">
+        <div class="col-md-2">
+            <a href="#/names-inputs">Main Page</a></div>
+        <div class="col-md-3 col-md-offset-5">
+            <address>
+                <div class="col-md-3 "><strong>Email:</strong><a
+                        href="mailto:jiangshizhi@yinsho.com">jiangshizhi@yinsho.com</a>
+                </div>
+            </address>
+        </div>
+    </div>
+</footer>

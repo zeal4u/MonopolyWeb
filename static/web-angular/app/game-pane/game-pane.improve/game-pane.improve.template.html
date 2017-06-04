@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="game-pane.improve.css"/>
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--<script src="../../bower_components/angular-animate/angular-animate.js"></script>-->
+<div class="container Absolute-Center">
+    <div style="height: auto">
+        <span id="new_event" style="width:50%;" ng-repeat="message in messages">
+                <em style="color: red; font-size: 2em;">{{message}}</em>
+        </span><br/>
+    </div>
+    <div class="row show-grid">
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+        <div class="col-md-1 node">.col-md-1</div>
+
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <button ng-click="nextTurn()" class="btn btn-block btn-large btn-info"
+               style="font-size: xx-large">Next Turn!</button>
+    </div>
+</div>>
