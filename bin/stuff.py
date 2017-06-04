@@ -75,7 +75,7 @@ class DBHelper(object):
     session = None
 
     @staticmethod
-    def get_connect(user='jsz', passwd='123456', db='monopoly', host='localhost'):
+    def get_connect(user='zeal4u', passwd='123456', db='monopoly', host='localhost'):
         """
         this is a static method
         :param str user:
